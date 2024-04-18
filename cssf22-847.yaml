@@ -1,0 +1,604 @@
+urn: urn:rsecure:risk:library:cssf24-847
+locale: en
+ref_id: CSSF 24-847
+name: Circular CSSF 24/847
+description: ICT-related incident reporting framework
+copyright: CSSF
+version: 1
+provider: EU
+packager: rsecure
+objects:
+  framework:
+    urn: urn:rsecure:risk:framework:cssf24-847
+    ref_id: CSSF 24-847
+    name: ICT-related incident reporting
+    description: ICT-related incident reporting framework
+    requirement_nodes:
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node2
+      assessable: false
+      depth: 1
+      name: Preamble
+    - urn: urn:rsecure:risk:req_node:cssf24-847:recital-1
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node2
+      ref_id: Recital 1
+      description: "Luxembourg, 5 January 2024\nLadies and Gentlemen,\nThe purpose\
+        \ of this Circular is to introduce a new ICT-related incident reporting framework\
+        \ in order\nto acquire a better and more structured overview of the nature,\
+        \ frequency, significance and impact\nof ICT-related incidents, also considering\
+        \ the growing ICT and security risk in the context of a highly\ninterconnected\
+        \ global financial system.\nThe provisions of this Circular are based on Article\
+        \ 53(1) of the Law of 5 April 1993 on the financial\nsector, as amended (hereafter\
+        \ \u201CLFS\u201D), Article 31(4) of the Law of 10 November 2009 on payment\n\
+        services, as amended (hereafter \u201CLPS\u201D), Article 2 of the Law of\
+        \ 15 December 2000 on postal financial\nservices, as amended, Article 147\
+        \ of the Law of 17 December 2010 relating to undertakings for\ncollective\
+        \ investment, as amended (hereafter \u201CUCITS Law\u201D), Article 50 of\
+        \ the Law of 12 July 2013\non alternative investment fund managers, as amended\
+        \ (hereafter \u201CAIFM Law\u201D), Article 2(1) of the\nLaw of 15 March 2016\
+        \ on OTC derivatives, central counterparties and trade repositories, as amended\n\
+        (hereafter \u201CEMIR Law\u201D), Article 2(1) of the Law of 17 April 2018\
+        \ on benchmarks (hereafter\n\u201CBenchmark Law\u201D), Article 2 of the Law\
+        \ of 6 June 2018 on Central Securities Depositories (hereafter\n\u201CCSD\
+        \ Law\u201D), and Article 20-16 of the Law of 16 July 2019 on the operationalisation\
+        \ of European\nregulations in the area of financial services.\nAccording to\
+        \ Article 3 of the Law of 28 May 2019 on Network and Information Systems (hereafter\n\
+        \u201CNIS Law\u201D), the CSSF is also the competent authority in terms of\
+        \ network and information security\nfor the credit institutions and the financial\
+        \ market infrastructures that have been identified as\nOperators of Essential\
+        \ Services (hereafter \u201COES\u201D), as well as for Digital Service Providers\
+        \ (hereafter\n\u201CDSP\u201D) which are already under the supervision of\
+        \ the CSSF (\u201CNIS authority\u201D). The objective of this\ncircular is\
+        \ to lay down the practical details and modalities for the reporting obligations\
+        \ set forth in\nArticles 8(4), 8(5), 9(1), 11(3) and 11(4) and 12 of the NIS\
+        \ Law and in CSSF Regulation No 24-01\nCIRCULAR CSSF 24/847 3/24\nrelating\
+        \ to the notification of incidents according to the Law of 28 May 20191 (hereafter\
+        \ \u201CCSSF\nRegulation No 24-01\u201D) regarding specifically Articles 8(5)\
+        \ and 11(3) of the NIS Law.\nThis Circular brings the following changes to\
+        \ the current incident reporting mechanism:\n\u2022 Increases the incident\
+        \ coverage, currently limited to fraud and incidents due to external\ncomputer\
+        \ attacks as per Circular CSSF 11/504, by covering more broadly ICT operational\
+        \ and\nsecurity incidents while avoiding double reporting for incidents to\
+        \ be notified under other incident\nnotification frameworks.\n\u2022 Introduces\
+        \ reporting based on classification. Supervised Entities will be required\
+        \ to classify ICTrelated incidents based on the criteria indicated in this\
+        \ Circular and to notify to the CSSF the\ncases where ICT-related incidents\
+        \ are classified as major or significant incidents.\n\u2022 Introduces a new\
+        \ incident reporting notification form. To obtain data in a structured form,\n\
+        Supervised Entities will be required to complete and submit an ICT-related\
+        \ incident notification\nform in case the ICT-related incident is classified\
+        \ as a major or significant incident.\n\u2022 Introduces a specific chapter\
+        \ to cover in the same Circular the incident notification requirements\n(previously\
+        \ communicated via bilateral communications to Supervised Entities that are\
+        \ under\nthe scope of the NIS Law) in order to apply the new incident reporting\
+        \ notification forms and\npractical requirements to the notifications of incidents\
+        \ assessed as significant under the NIS Law.\nThis Circular is divided in\
+        \ four chapters:\n\u2022 Chapter 1 (Definitions and scope of application)\
+        \ sets out the definitions applicable for the\npurpose of this Circular and\
+        \ defines the scope of application;\n\u2022 Chapter 2 (General requirements)\
+        \ sets out the requirements for the classification and reporting\nof the ICT-related\
+        \ incidents;\n\u2022 Chapter 3 (Specific requirements under the NIS Law and\
+        \ CSSF Regulation No 24-01) is dedicated\nto specific requirements for those\
+        \ Supervised Entities that are subject to the NIS Law and CSSF\nRegulation\
+        \ No 24-01 and that are defined as OES or DSP;\n\u2022 Chapter 4 (Date of\
+        \ application) provides for the entry into force of this Circular."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node4
+      assessable: false
+      depth: 1
+      name: Chapter I
+      description: Definitions and scope of application
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node5
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node4
+      name: Section 1.1
+      description: Definitions
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.1.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node5
+      ref_id: 1.1.1
+      description: "For the purpose of this Circular, the following definitions apply2:\n\
+        a) \u201CNetwork and information system\u201D means:\ni. an electronic communications\
+        \ network within the meaning of Article 2, paragraph 1,\nof the Law of 17\
+        \ December 2021 on electronic communications networks and\nservices3;\nii.\
+        \ any device or group of interconnected or related devices, one or more of\
+        \ which,\npursuant to a program, perform automatic processing of digital data;\
+        \ or\niii. digital data stored, processed, retrieved or transmitted by elements\
+        \ covered under\npoints i. and ii. above for the purposes of their operation,\
+        \ use, protection and\nmaintenance.\nb) \u201CSecurity of network and information\
+        \ systems\u201D means the ability of network and\ninformation systems to resist,\
+        \ at a given level of confidence, any action that compromises\nthe availability,\
+        \ authenticity, integrity or confidentiality of stored or transmitted or\n\
+        processed data or the related services offered by, or accessible via, those\
+        \ network and\ninformation systems.\nc) \u201CICT-related incident\u201D means\
+        \ a single event or a series of linked events unplanned by the\nSupervised\
+        \ Entity that compromises the security of the network and information systems,\n\
+        and has an adverse impact on the availability, authenticity, integrity or\
+        \ confidentiality of\ndata, or on the services provided by the Supervised\
+        \ Entity.\nd) \u201CMajor ICT-related incident\u201D means an ICT-related\
+        \ incident that has a high adverse\nimpact on the network and information\
+        \ systems that support critical or important\nfunctions of the Supervised\
+        \ Entity.\ne) \u201CCritical or important function\u201D means a function,\
+        \ the disruption of which would materially\nimpair the financial performance\
+        \ of a Supervised Entity, or the soundness or continuity\nof its services\
+        \ and activities, or the discontinued, defective or failed performance of\
+        \ that\nfunction would materially impair the continuing compliance of a Supervised\
+        \ Entity with\nthe conditions and obligations of its authorisation, or with\
+        \ its other obligations under\napplicable financial services laws.\nf) \u201C\
+        Operator of Essential Services\u201D (\u201COES\u201D) means, in accordance\
+        \ with point (3) of Article 2\nof the NIS Law, a public or private entity\
+        \ of a type referred to in the annex to the NIS\nLaw, and which meets the\
+        \ criteria laid down in Article 7(2) of the NIS law4.\ng) \u201CDigital Service\
+        \ Provider\u201D (\u201CDSP\u201D) means, in accordance with point (5) of\
+        \ Article 2 of the\nNIS Law, a private entity that provides a digital service\
+        \ as defined in point (4) of Article\n2 of the NIS Law5.\nh) \u201CEssential\
+        \ service\u201D means a service which is essential for the maintenance of\
+        \ critical\nsocietal and/or economic activities and which is listed as essential\
+        \ service in Article 2 of\nCSSF Regulation No 20-04 of 15 July 20206\n.\n\
+        i) \u201CSignificant incident\u201D means an incident having a significant\
+        \ impact on the continuity of\nthe essential services provided by an OES or\
+        \ on the provision of a digital service provided\nby a DSP7\nwithin the European\
+        \ Union. For the purpose of this Circular, a significant\nincident is by default\
+        \ considered as a \u201CMajor ICT-related incident\u201D."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.1.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node5
+      ref_id: 1.1.2
+      description: 'The following entities are to be considered as Supervised Entities
+        in the frame of this
+
+        Circular:
+
+        a) credit institutions and professionals of the financial sector within the
+        meaning of the LFS;
+
+        b) approved publication arrangements (APAs) with a derogation and authorised
+        reporting
+
+        mechanisms (ARMs) with a derogation within the meaning of the LFS;
+
+        c) payment institutions and electronic money institutions within the meaning
+        of the LPS;
+
+        d) POST Luxembourg governed by the Law of 15 December 2000 on postal financial
+
+        services8;
+
+        e) management companies incorporated under Luxembourg law and subject to Chapter
+        15
+
+        of the UCITS Law;
+
+        f) management companies incorporated under Luxembourg law and subject to Articles
+        125-
+
+        1 or 125-2 of Chapter 16 of the UCITS 2010 Law;
+
+        g) Luxembourg branches of IFMs subject to Chapter 17 of the UCITS Law;
+
+        h) investment companies which did not designate a management company within
+        the
+
+        meaning of Article 27 of the UCITS Law;
+
+        i) alternative investment fund managers authorised under Chapter 2 of the
+        AIFM Law;
+
+        j) internally managed alternative investment funds within the meaning of point
+        (b) of
+
+        Article 4(1) of the AIFM Law;
+
+        k) central counterparties (CCPs) within the meaning of Article 2(1) of EMIR9,
+        including Tier
+
+        2 third-country CCPs within the meaning of Article 25(2a) of EMIR, complying
+        with the
+
+        relevant requirements of EMIR in accordance with point (a) of Article 25(2b)
+        of EMIR;
+
+        l) central securities depositories within the meaning of the CSD Law;
+
+        m) administrators of critical benchmarks within the meaning of point (b) of
+        Article 20(1) of
+
+        the Benchmark Regulation10;
+
+        n) crowdfunding Service Providers within the meaning of the Law of 16 July
+        2019 on the
+
+        operationalisation of European regulations in the area of financial services;
+
+        o) credit institutions and the financial market infrastructures for which
+        according to Article 3
+
+        of the NIS Law the CSSF is the competent authority in terms of network and
+        information
+
+        security and that have been identified as OES,
+
+        p) support PSF authorised in accordance with Article 29-3 of the LFS for which
+        according to
+
+        Article 3 of the NIS Law the CSSF is the competent authority in terms of network
+        and
+
+        information security and that have been informed by the CSSF of their consideration
+        as
+
+        DSP under the NIS Law.'
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node4
+      name: Section 1.2
+      description: Scope of application
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.1
+      description: This Circular defines the supervisory expectations that must be
+        complied with in the event of an ICT-related incident.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.2
+      description: "The provisions of Chapter 2 (General requirements) of this Circular\
+        \ are applicable to all Supervised Entities as defined in point 2 a) to n)\
+        \ above, hereinafter collectively referred to as \u201CSupervised Entities\u201D\
+        \ or individually as \u201CSupervised Entity\u201D, including their branches\
+        \ as specified in the respective laws. Branches in Luxembourg of Entities\
+        \ incorporated in a third country shall be deemed to be included in the notion\
+        \ of Supervised Entity."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.3
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.3
+      description: Branches in Luxembourg of the Entities that are part of a legal
+        entity whose head office is located in a different Member State of the European
+        Economic Area (EEA) (EEA branches) are subject to the supervision of the competent
+        authority of that Member State (home Member State). However, as the CSSF is
+        competent for ensuring that EEA branches comply with the specific requirements
+        laid down in the sectoral legal and regulatory frameworks11, this Circular
+        applies if an ICT-related incident impacts areas for which the CSSF retains
+        an oversight responsibility.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.4
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.4
+      description: The provisions of Chapter 3 (Specific requirements under the NIS
+        Law and CSSF Regulation No 24-01) of this Circular are only applicable to
+        those Supervised Entities that are also OES4 or DSP5
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.5
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.5
+      description: "With the aim of preventing double reporting, Supervised Entities\
+        \ in scope of this Circular are\nnot required to notify under this Circular\
+        \ the incidents they notify in compliance with:\na) Circular CSSF 21/787 on\
+        \ the \u201CApplication of the EBA Guidelines (EBA/GL/2021/03) on\nMajor Incident\
+        \ Reporting under PSD2\u201D, and/or;\nb) Cyber Incident Reporting for Supervised\
+        \ Entities defined as significant institutions falling\nunder the direct supervision\
+        \ of the ECB, and/or;\nc) Article 45(6) of Regulation (EU) No 909/2014 on\
+        \ notification of incidents resulting from\nthe risks that key participants,\
+        \ service and utility providers, other central securities\ndepositories (CSDs)\
+        \ or other market infrastructures might pose to the CSD\u2019s operations,\n\
+        and/or;\nd) Article 71(4)(b) of Commission Delegated Regulation (EU) 2017/392\
+        \ of 11 November\n2016 supplementing Regulation (EU) No 909/2014 on reporting\
+        \ of material operational\nincidents to the competent authority."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:1.2.6
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node8
+      ref_id: 1.2.6
+      description: By way of exception from point 7 above, Supervised Entities falling
+        under by point 7.b) and who are also OES, are required to report to the CSSF
+        as per this Circular those incidents that impact the continuity of the essential
+        services they provide, in addition to their other incident reporting obligations.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node15
+      assessable: false
+      depth: 1
+      name: Chapitre 2
+      description: General requirements
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node16
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node15
+      name: Section 2.1
+      description: Incidents to be notified
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.1.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node16
+      ref_id: 2.1.1
+      description: 'Supervised Entities shall notify the following incidents in accordance
+        with the procedure defined in section 2.3: a) Any successful malicious unauthorised
+        access to the network and information systems. For the purpose of this circular
+        these successful malicious unauthorised accesses are to be considered as major
+        ICT-related incidents. b) Any incident other than those referred to in point
+        a) above, classified in line with section 2.2 as major ICT-related incident.'
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node18
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node15
+      name: Section 2.2
+      description: ICT-related incident classification
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.2.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node18
+      ref_id: 2.2.1
+      description: "Supervised Entities shall classify ICT-related incidents and assess\
+        \ their impact on the basis of the following criteria: a) the number and/or\
+        \ relevance of clients12 or financial counterparts affected and, where applicable,\
+        \ the amount or number of transactions affected by the ICT-related incident,\
+        \ and whether the ICT-related incident has caused reputational impact; b)\
+        \ the duration of the ICT-related incident, including the service downtime;\
+        \ c) the geographical spread with regard to the areas affected by the ICT-related\
+        \ incident, particularly if it affects more than two Member States; d) the\
+        \ data losses that the ICT-related incident entails, in relation to availability,\
+        \ authenticity, integrity or confidentiality; e) the criticality of the services\
+        \ affected, including the Supervised Entity\u2019s transactions and operations;\
+        \ f) the economic impact, in particular direct and indirect costs and losses,\
+        \ of the ICT-related incident in both absolute and relative terms."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.2.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node18
+      ref_id: 2.2.2
+      description: When the Supervised Entity's internal assessment based on the criteria
+        listed under point 10 leads the Supervised Entity to classify an ICT-related
+        incident as major, the ICT-related incident shall be considered as major under
+        this circular.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.2.3
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node18
+      ref_id: 2.2.3
+      description: In the case the assessment referred under point 11 does not lead
+        to a clear outcome on whether the ICT-related incident has to be classified
+        as major, Supervised Entities shall report the ICT-related incident to the
+        CSSF
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.2.4
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node18
+      ref_id: 2.2.4
+      description: 'Supervised Entities shall classify the ICT-related incident in
+        a timely manner after the ICTrelated incident has been detected, and without
+        undue delay after the information required
+
+        for the classification of the ICT-related incident is available to the Supervised
+        Entities, but
+
+        no later than 24 hours after the detection of that ICT-related incident. If
+        longer time is
+
+        needed to classify the ICT-related incident, Supervised Entities shall explain
+        in the initial
+
+        notification submitted to the competent authority the reasons thereof. Where
+        the deadline
+
+        for classification falls on a weekend day or a bank holiday, Supervised Entities
+        may classify
+
+        the incident on the next working day.'
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node15
+      name: Section 2.3
+      description: Major ICT-related incident notification
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.1
+      description: "Supervised Entities shall, within the time limits laid down in\
+        \ Annex I, submit the following notifications of major ICT-related incidents\
+        \ to the CSSF: a) An initial notification with \"Initial Information\" when\
+        \ the ICT-related incident has been classified as major. b) An intermediate\
+        \ notification with \u201CIncident cause, classification and impact\u201D\
+        \ after the initial notification referred to in point 14.a), followed by,\
+        \ as appropriate, updated notifications each time a relevant update is available,\
+        \ as well as upon specific request by the CSSF. c) A final notification, when\
+        \ the root cause analysis has been completed, regardless of whether mitigation\
+        \ measures have been fully implemented, and when the actual impact figures\
+        \ are available to replace estimates. In this notification Supervised Entities\
+        \ can add any follow-up and additional information that is deemed relevant\
+        \ for the ICT-related incident."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.2
+      description: When the ICT-related incident proves to have or will potentially
+        have a very serious impact (e.g., complete unavailability of the systems),
+        the Supervised Entity shall notify the CSSF as soon as possible within the
+        given timeframe, and if necessary, before the formal submission of the notification
+        form.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.3
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.3
+      description: ICT-related incident notifications referred to in point 14 shall
+        be submitted via the corresponding form available using the CSSF digital solution
+        as further specified on the CSSF website
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.4
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.4
+      description: "Supervised Entities shall complete the relevant section of the\
+        \ notification form, depending on the phase they are in (i.e., section \u201C\
+        Initial information\u201D for initial notification, section \u201CIncident\
+        \ cause, classification and impact\u201D for intermediate notification and\
+        \ section \u201CRoot cause \u2013 Follow-up and additional information\u201D\
+        \ for final notification). The notification form contains the data fields\
+        \ laid down in Annex II."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.5
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.5
+      description: The sections of the notification form must be submitted in the
+        order indicated in point 14. Should the Supervised Entity have all the information
+        required available at the time of the initial notification, a single submission
+        (containing all the sections of the notification form) shall be made.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.6
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.6
+      description: "Supervised Entities shall also notify the competent authority\
+        \ when, as a result of the continuous assessment of the ICT-related incident,\
+        \ it is identified that an already reported ICT-related incident no longer\
+        \ fulfils the criteria to be considered major and is not expected to fulfil\
+        \ them before the ICT-related incident is resolved. In this case, Supervised\
+        \ Entities shall reclassify the ICT-related incident as soon as this circumstance\
+        \ is detected and provide an explanation of the reasons justifying this reclassification\
+        \ in the section \u201CInitial information\u201D of the notification form."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:2.3.7
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node23
+      ref_id: 2.3.7
+      description: Supervised Entities may outsource the reporting obligations under
+        this chapter to a thirdparty provider. In case of such outsourcing, the Supervised
+        Entity remains fully responsible for the fulfilment of the ICT-related incident
+        reporting requirements within the applicable timeline and for the whole content
+        of the incident reporting.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node31
+      assessable: false
+      depth: 1
+      name: Chapter 3
+      description: Specific requirements under NIS Law and CSSF Regulation No 24-01
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node32
+      assessable: false
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node31
+      name: Section 3.1
+      description: Incident notification by Supervised Entities who are also OES
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.1.1
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node32
+      ref_id: 3.1.1
+      description: "In compliance with Article 8(4) of the NIS Law, Supervised Entities\
+        \ who are also OES shall notify, without undue delay, the CSSF of incidents\
+        \ having a significant impact on the continuity of the essential services\
+        \ they provide. The notion of \u201Cwithout undue delay\u201D is considered\
+        \ complied with when Supervised Entities submit their incident notification\
+        \ in line with the time limits indicated in section 2.3 (Major ICT-related\
+        \ incident notification) and in Annex I."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.1.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node32
+      ref_id: 3.1.2
+      description: In this respect, in compliance with Article 8(5) of the NIS Law
+        and CSSF Regulation No 24- 01, Supervised Entities who are also OES shall
+        assess whether an incident is to be classified as a significant incident by
+        applying mutatis mutandis the requirements stated in section 2.2 (ICT-related
+        incident classification) and shall notify the significant incidents in compliance
+        with the requirements stated in section 2.3 (Major ICT-related incident notification).
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.1.3
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node32
+      ref_id: 3.1.3
+      description: Successful malicious unauthorised accesses have to be considered
+        by default as significant incidents and shall be notified in compliance with
+        the requirements stated in section 2.3 (Major ICT-related incident notification).
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.1.4
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node32
+      ref_id: 3.1.4
+      description: When an incident is classified both as a significant incident and
+        as a major ICT-related incident (e.g., the incident impacts both essential
+        services under NIS and other critical or important functions), Supervised
+        Entities who are also OES shall notify only once the incident and indicate
+        in their notification that the incident is also notified under the NIS Law
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node37
+      assessable: true
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node31
+      name: Section 3.2
+      description: Incident notification by Supervised Entities who are also DSP
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.2.1
+      assessable: true
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node37
+      ref_id: 3.2.1
+      description: "Article 11(3) of the NIS Law and CSSF Regulation No 24-01 mentions\
+        \ that DSPs shall notify, without undue delay, the competent authority of\
+        \ incidents having a significant impact on the provision of a digital service\
+        \ they provide within the European Union. The notion of \u201Cwithout undue\
+        \ delay\u201D is considered complied with when Supervised Entities submit\
+        \ their incident notification in line with the time limits indicated in section\
+        \ 2.3 (Major ICT-related incident notification) and in Annex I."
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.2.2
+      assessable: false
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node37
+      ref_id: 3.2.2
+      description: 'Supervised Entities who are also DSP shall:
+
+        a) assess whether an incident (including successful malicious unauthorised
+        accesses, as
+
+        defined under point 9.a) of section 2.1) is to be classified as a significant
+        incident in line
+
+        with Articles 3 and 4 of Commission Implementing Regulation (EU) 2018/151
+        of 30
+
+        January 201813 providing details on Article 11(4) of the NIS Law;
+
+        b) apply mutatis mutandis points 12 and 13 of section 2.2 (ICT-related incident
+
+        classification);
+
+        c) notify the significant incidents in compliance with the requirements stated
+        in section 2.3
+
+        (Major ICT-related incident notification).'
+    - urn: urn:rsecure:risk:req_node:cssf24-847:3.2.3
+      assessable: true
+      depth: 3
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node37
+      ref_id: 3.2.3
+      description: When an incident is classified both as a significant incident and
+        as a major ICT-related incident, Supervised Entities who are also DSP shall
+        notify only once the incident and indicate in their notification that the
+        incident is also notified under the NIS Law.
+    - urn: urn:rsecure:risk:req_node:cssf24-847:node41
+      assessable: true
+      depth: 1
+      name: Chapter 4
+      description: Date of application
+    - urn: urn:rsecure:risk:req_node:cssf24-847:4.1.1
+      assessable: true
+      depth: 2
+      parent_urn: urn:rsecure:risk:req_node:cssf24-847:node41
+      ref_id: 4.1.1
+      description: "This Circular shall enter into force on 1 April 2024 for the Supervised\
+        \ Entities as defined in point 2 a) to d) and k) to p) in Section 1.1., and\
+        \ on 1 June 2024 for the Supervised Entities as defined in point 2 e) to j)\
+        \ in Section 1.1. The Circular will repeal and replace Circular CSSF 11/504\
+        \ on \u201CFrauds and incidents due to external computer attacks\u201D on\
+        \ 1 April 2024 for the Supervised Entities as defined in point 2 a) to d)\
+        \ and k) to p) in Section 1.1. and on 1 June 2024 for the Supervised Entities\
+        \ as defined in point 2 e) to j) in Section 1.1"
